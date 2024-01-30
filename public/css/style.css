@@ -1,0 +1,60 @@
+.form-section .main-wrapper{
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.g-3, .gy-3 {
+    --bs-gutter-y: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputs{
+    width: 95%;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    padding: 0.375em 5px;
+    /* margin: 0.375rem 0.75rem; */
+    outline: none !important;
+    color: white !important;
+    font-size: 15px;
+}
+.inputs:focus{
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.inputs::placeholder{
+    color: white !important;
+}
+
+table tr td, table tr th{
+    background-color: transparent !important;
+    /* border: 1px solid white; */
+    padding: 12px 0 !important;
+    border-bottom: none;
+}
+
+table tr{
+    border-bottom: 1px solid white;
+}
+
+table {
+    --bs-table-color-state: white !important;
+}
+
+form label{
+    color: red;
+    font-weight: 600;
+}
+
+.form-label{
+    color: white !important;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foem</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-dark text-white">
+
+
+  <section class="form-section">
+    <div class="container vh-100">
+      <div class="row vh-100 align-items-center justify-content-center">
+        <div class="col-9 main-wrapper">
+          <h1 class="mb-4">Enter Details</h1>
+          <form id="registered" class="row g-3" method="post" action="/formData">
+            <div class="col-md-6">
+              <input id="name" placeholder="Enter Name..." name="name" type="text" class="form-control inputs">
+            </div>
+            <div class="col-md-6">
+              <input id="phone" placeholder="Enter Phone..." name="phone" type="number" class="form-control inputs">
+            </div>
+            <div class="col-md-6">
+              <input id="email" placeholder="Enter Email..." name="email" type="email" class="form-control inputs">
+            </div>
+            <div class="col-md-6">
+              <input id="zip" placeholder="Enter Zip..." name="zip" type="number" class="form-control inputs">
+            </div>
+            <div class="col-md-6">
+              <input id="city" placeholder="Enter City" name="city" type="text" class="form-control inputs">
+            </div>
+            <div class="col-12">
+              <input id="address" placeholder="Enter Address" name="address" type="text" style="width: 98%;"
+                class="form-control inputs" placeholder="1234 Main St">
+            </div>
+
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" name="check" type="checkbox">
+                <label class="form-check-label text-white" for="gridCheck">
+                  Agree Term & Condition
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button  type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="javascripts/code.jquery.com_jquery-3.7.1.min.js"></script>
+  <script src="javascripts/cdnjs.cloudflare.com_ajax_libs_jquery-validate_1.19.5_jquery.validate.min.js"></script>
+  <script src="javascripts/script.js"></script>
+  <script>
+    
+
+  </script>
+</body>
+
+</html>
